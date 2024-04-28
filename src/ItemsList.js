@@ -12,7 +12,7 @@ const ItemList = ({data} ) => {
     data?.map((item) => (
       <div
         className="text-left flex flex-col justify-between p-2 border-b-4 bg-slate-100 rounded-lg mt-0"
-        key={item?.card?.info?.id}
+        key={item?.card?.info?.id} 
       >
         <h2 className="font-bold">{item?.card?.info?.name}</h2>
         <p className="font-bold p-1">₹ {item?.card?.info?.price / 100}</p>
