@@ -5,7 +5,7 @@ const Instamart = () => {
   const [listItems, setListItems] = useState([]);
   const fetchData = async () => {
     const data = await fetch(
-      "https://www.swiggy.com/api/instamart/home?clientId=INSTAMART-APP%20Request%20Method:%20GET"
+      "https://thingproxy.freeboard.io/fetch/https://www.swiggy.com/api/instamart/home?clientId=INSTAMART-APP%20Request%20Method:%20GET"
     );
     const json = await data.json();
 
@@ -90,7 +90,7 @@ const Instamart = () => {
                 <img
             className=" h-24 w-24 scale-110 inset-10"
             src={
-              "https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_200,w_200/" +
+              "https://thingproxy.freeboard.io/fetch/https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_200,w_200/" +
               res.imageId
             }
             alt="items-image"
