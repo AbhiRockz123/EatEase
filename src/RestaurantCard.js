@@ -3,7 +3,7 @@ export const RestaurantCard = (props) => {
     props;
   return (
     <div className="items-center justify-center mx-auto">
-      <div className="flex  shadow-lg flex-col h-auto w-64 flex-wrap mx-4 rounded-lg hover:bg-slate-200 items-left text-left m-2 p-4 hover:scale-105 duration-150 hover:shadow-lg">
+      <div className="flex  shadow-lg flex-col h-auto w-48 flex-wrap mx-4 rounded-lg hover:bg-slate-200 items-left text-left m-2 p-4 hover:scale-105 duration-150 hover:shadow-lg">
         <img
           className="h-36 w-48 rounded-lg"
           src={

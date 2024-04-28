@@ -69,7 +69,7 @@ const Body = () => {
       </div>
 
       {/* restaurant cards data from map */}
-      <div className="flex flex-wrap">
+      <div className="flex flex-wrap ">
         {searchData.map((res) => (
           <Link to={"/restaurants/"+res?.info?.id} key={res?.info?.id}>
           <RestaurantCard 

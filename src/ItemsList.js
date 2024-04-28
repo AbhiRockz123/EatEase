@@ -17,7 +17,7 @@ const ItemList = ({data} ) => {
         <h2 className="font-bold">{item?.card?.info?.name}</h2>
         <p className="font-bold p-1">₹ {item?.card?.info?.price / 100}</p>
         <div className="flex flex-row justify-between">
-          <p className="text-sm w-1/2 my-auto font-serif">
+          <p className="text-sm w-1/2 my-auto font-serif text-wrap  h-auto">
             {item?.card?.info?.description}
           </p>
           <div className="relative">
