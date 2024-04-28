@@ -5,7 +5,7 @@ const Instamart = () => {
   const [listItems, setListItems] = useState([]);
   const fetchData = async () => {
     const data = await fetch(
-      "https://thingproxy.freeboard.io/fetch/https://www.swiggy.com/api/instamart/home?clientId=INSTAMART-APP%20Request%20Method:%20GET"
+      "https://www.swiggy.com/api/instamart/home?clientId=INSTAMART-APP%20Request%20Method:%20GET"
     );
     const json = await data.json();
 
