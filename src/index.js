@@ -20,7 +20,7 @@ const Instamart = lazy(() => import("./Instamart"));
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 const AppLayout = () => {
-  const [userName, setUserName] = useState("Akshay Saini");
+  const [userName, setUserName] = useState("Abhishek Parmar");
   return (
     <Provider store={AppStore}>
       <UserContext.Provider value={{ loggedInuser: userName, setUserName }}>
